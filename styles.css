@@ -2,7 +2,7 @@ body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            height:800vh;
+            height:925vh;
             background: linear-gradient(to bottom, #98d4ff, #ffffff, #7097e1);
             display: flex;
             flex-direction: column;
@@ -60,7 +60,7 @@ body {
             padding: 20px 40px;
             font-size: 1.5rem;
             color: #fff;
-            background-color: #47afe3;
+            background-color: #075074;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -72,7 +72,7 @@ body {
             padding: 20px 40px;
             font-size: 1.5rem;
             color: #fff;
-            background-color: #f3d066;
+            background-color: #8f6305;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -84,7 +84,7 @@ body {
             padding: 20px 40px;
             font-size: 1.5rem;
             color: #fff;
-            background-color: #86eeac;
+            background-color: #1a8c44;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -159,3 +159,61 @@ h2{
 .content {
          flex: 1; /* Hace que el contenido ocupe el espacio disponible */
         }
+
+
+.intro {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #333;
+}
+.highlight {
+    font-size: 20px;
+    color: #e18f0b;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-left: 4px solid #ff4500;
+    text-align: center;
+}
+.normal {
+    font-size: 17px;
+    color: #303030;
+    line-height: 1.6;
+    text-align: center;
+
+}
+
+.serif {
+    font-family: 'Times New Roman', serif;
+}
+.sans-serif {
+    font-family: 'Arial', sans-serif;
+}
+
+p.left {
+    text-align: left;
+}
+
+p.center {
+    text-align: center;
+}
+
+p.right {
+    text-align: right;
+}
+
+li{
+    text-align: center;
+    font-size: 18px;
+}
+        
+
+a {
+    color: #3498db; /* Cambia el color del enlace */
+    text-decoration: none; /* Elimina el subrayado */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+}
+
+a:hover {
+    color: #2ecc71; /* Cambia el color al pasar el ratón */
+    text-decoration: underline; /* Subraya el enlace al pasar el ratón */
+}
